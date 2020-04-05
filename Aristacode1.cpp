@@ -21,7 +21,7 @@
     cout.tie(0);
 #ifndef ONLINE_JUDGE
 bool ipfile = freopen("ip.txt", "r", stdin);
-bool opfile = freopen("op.txt", "w", stdout);
+bool opfile = freopen("op.txt", "w", stdout) ;
 #endif
 using namespace std;
 
